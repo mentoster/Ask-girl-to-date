@@ -1,0 +1,76 @@
+
+.container {
+    text-align: center; /* Centers the content */
+    padding: 20px;
+}
+
+.invite-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.heading-with-images {
+    display: flex; /* This will allow for horizontal layout */
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: center; /* Centers the content horizontally */
+    gap: 10px; /* Adjusts the space between the elements */
+}
+
+
+
+.side-image {
+    height: 150px; /* Adjust based on your preference */
+    /* width: auto; If you need to maintain aspect ratio */
+}
+
+
+.invite-image {
+	max-width: 20%;
+	height: auto;
+	border-radius: 10px; /* Optional: for rounded corners */
+}
+.angry-image {
+	max-width: 60%;
+	height: auto;
+	border-radius: 10px; /* Optional: for rounded corners */
+}
+.cute-image {
+	max-width: 70%;
+	height: auto;
+	border-radius: 10px; /* Optional: for rounded corners */
+}
+h1 {
+	font-size: 4em;
+	color: #423189;
+    margin: 20px 0; /* Adjusted margins for spacing */
+
+}
+h1, p {
+    background-color: #ffffff; /* Ensures text backgrounds are white */
+    display: inline-block; /* Allows background color to fit text */
+    margin: 10px 0; /* Adjusted margins for spacing */
+    padding: 20px 20px; /* Adds padding around the text */
+}
+
+p {
+	font-size: 2em;
+	color: #423189;
+	margin-bottom: 30px;
+    // bold
+    font-weight: bold;
+}
+
+.response-buttons {
+	display: flex;
+	justify-content: center;
+	gap: 20px; /* Spacing between buttons */
+}
+
+.btn {
+	padding: 10px 20px;
+	font-size: 1em;
+	border: none;
+	border-radius: 5px; /* Rounded corners for buttons */
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Veles';
+    src: url('fonts/ofont.ru_Veles.ttf') format('truetype');
+}
+
+.btn {
+    padding: 15px 30px; /* Increased button size */
+    font-size: 1.2em; /* Larger text */
+    font-family: 'Veles', sans-serif; /* Using Veles font */
+    color: white; /* Ensures text color is white for both buttons */
+    border: 2px solid black; /* Adds black outline */
+    border-radius: 5px; /* Keeps rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Adds transition for border color as well */
+}
+
+/* #no Button Styles */
+#no {
+    background-color: #F400A1;
+}
+
+#no:hover {
+    background-color: #B3446C;
+    border-color: #a12d2f; /* Optional: change border color on hover */
+}
+
+/* #yes Button Styles - Making both buttons red as requested */
+#yes {
+    background-color: #F400A1;
+}
+
+#yes:hover {
+    background-color: #B3446C;
+    border-color: #a12d2f; /* Optional: change border color on hover */
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Veles';
+    src: url('fonts/ofont.ru_Veles.ttf') format('truetype');
+}
+body,
+html {
+	height: 100%;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+font-family: 'Veles';
+	background-image: url("Assets/Background_image/1.jpg");
+	background-repeat: repeat;
+	background-position: top left;
+	background-attachment: fixed;
+	background-size: 400px 400px; /* Adjust the size as needed */
+}
